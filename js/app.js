@@ -227,8 +227,8 @@ function resetGame() {
     //resetClockAndTime();
     //resetMoves();
     //resetStars();
-    shuffleDeck();
-    addToggleCard();
+    //shuffleDeck();
+    //addToggleCard();
     document.location.href = '';
 }
 
