@@ -31,9 +31,13 @@ body {
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    text-align: center;
 }
 
-h2 {font-weight: 75;}
+h2 {
+    font-weight: 75;
+    text-align: center;
+}
 
 /** Styles for the deck of cards */
 
@@ -77,13 +81,11 @@ h2 {font-weight: 75;}
         animation: rotation 2s  linear;
     }
 
-
-
     .modal_body {
         position: relative;
-        top: 40%;
+        top: 50%;
         left: 50%;
-        width: 250px;
+        width: 300px;
         background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
         transform: translate(-60%, -70%);
     }
@@ -146,8 +148,6 @@ h2 {font-weight: 75;}
     cursor: default;
 }   
 
-
-
 @keyframes rotation {
     from {
         -webkit-transform: rotate(0deg);
@@ -164,7 +164,7 @@ h2 {font-weight: 75;}
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    width: 250px;
+    width: 300px;
 }
 
 .score-panel .stars li {
@@ -215,13 +215,12 @@ h2 {font-weight: 75;}
     padding: 1rem;
 }
 
-.modal_button {
+button.modal_button {
     width: 60px;
     height: 30px;
     background-color: #2e3d49;
     color: #fff;
     border-radius: 4px;
-    //box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
 }
 
 .hide {
