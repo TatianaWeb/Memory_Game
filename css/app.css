@@ -174,7 +174,11 @@ h1 {
     vertical-align: middle;
     position: fixed;        
     background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
-    /*transform: translate(-60%, -70%);*/
+    -moz-transform: translate(-50%, -20%); /* Firefox */
+    -ms-transform: translate(-50%, -20%); /* IE */
+    -webkit-transform: translate(-50%, -20%); /* Safari, Chrome, iOS */
+    -o-transform: translate(-50%, -20%); /* Opera */
+    transform: translate(-50%, -20%);
 }
 
 .modal_heading {
