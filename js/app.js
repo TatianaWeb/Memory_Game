@@ -204,23 +204,18 @@ document.querySelector('.modal_cancel').addEventListener('click', () => {
     toggleModal();
 });
 
-/*document.querySelector('.modal_replay').addEventListener('click', () => {
-    resetGame();
-    toggleModal();
-});*/
-
 document.querySelector('.restart').addEventListener('click', resetGame);
 
 function resetGame() {
     document.location.href = '';
 }
 
-function resetCards() {
+/*function resetCards() {
     const cards = document.querySelectorAll('.deck li');
     for (let card of cards) {
         card.className = 'card';
     }
-}
+}*/
 
 
 

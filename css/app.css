@@ -170,12 +170,11 @@ h1 {
     vertical-align: middle;
 }
 .modal_body {
-    /*display: inline-block;*/
-    top:10%;
-    vertical-align: middle;    
-    position: relative;    
+    display: inline-block;
+    vertical-align: middle;
+    position: fixed;        
     background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
-    transform: translate(-60%, -70%);
+    /*transform: translate(-60%, -70%);*/
 }
 
 .modal_heading {
