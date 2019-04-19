@@ -176,7 +176,6 @@ function getStars () {
             starCount++;
         }
     }
-    //console.log(starCount);
     return starCount;
 }
 
@@ -199,7 +198,6 @@ function checkScore() {
 
 function hideStar() {
     const starList = document.querySelectorAll('.stars li');
-    //console.log(moves);
     for (star of starList) {
         if (star.style.display !== 'none') {
             star.style.display = 'none';
