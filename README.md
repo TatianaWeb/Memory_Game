@@ -1,6 +1,6 @@
 # Memory Game | Project 2 | Fron-End Web Development
 
-This is my repository for Udacity's  project#2 using Udacity starter code.
+This is my repository for Udacity Project#2 using Udacity starter code.
 
 Live version https://tatianaweb.github.io/Memory_Game/
 
@@ -21,7 +21,7 @@ At the end of the game, a modal window showing statistics of moves made, game ti
 A cancel button switches off the modal window but doesn't reload the result of the game. A replay button resets the game and allows a user to play again. 
 
 
-## Instructions to refresh code from VSC to GitHub
+## Instructions to push code from VSC to GitHub
 
 - git add .
 - git commit -m "Any message"
