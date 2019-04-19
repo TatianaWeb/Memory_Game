@@ -170,11 +170,12 @@ h1 {
     vertical-align: -webkit-baseline-middle;
 }
 .modal_body {
+    width: 300px;
     display: inline-block;
     vertical-align: -webkit-baseline-middle;
     position: fixed;        
     background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
-    transform: translate (-60%, 100rem);
+    transform: translate(-150px, 40%);
 }
 
 .modal_heading {
