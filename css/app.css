@@ -69,7 +69,7 @@ h2 {font-weight: 75;}
 
 }
 
-@media screen and (min-width:0=610px) and (max-width:1400px) {
+@media screen and (min-width:610px) and (max-width:1400px) {
     .deck {        
         width: 660px;
         min-height: 680px;
