@@ -1,24 +1,38 @@
-# Memory Game Project
+# Memory Game | Project 2 | Fron-End Web Development
 
-## Table of Contents
+This is my repository for Udacity's  project#2 using Udacity starter code.
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+Live version https://tatianaweb.github.io/Memory_Game/
 
-## Instructions
+## Game Specifications
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+The deck consists of 8 unique pairs of cards. Cards are shuffled randomly by provided function.
 
-To get started, open `js/app.js` and start building out the app's functionality
+The goal is to flip all cards. Only matched cards can stay opened. 
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+Once the user clicks on the first card, a timer starts and stops when all cards matched. 
 
-git add .
-git commit -m "Any message"
-git push origin master
+CSS animations shows correct matches. 
 
-## Contributing
+The scoreboard shows number of moves and time of game. Scoreboard also shows star rating, which decreases after 16, 24 and 32 moves. Restart button on the scoreboard restarts the game.
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+At the end of the game, a modal window showing statistics of moves made, game time and stars rating. 
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+A cancel button switches off the modal window but doesn't reload the result of the game. A replay button resets the game and allows a user to play again. 
+
+
+## Instructions to refresh code from VSC to GitHub
+
+- git add .
+- git commit -m "Any message"
+- git push origin master
+
+## Credit
+
+Helpful links for this project:
+
+- https://crystal-dawn.github.io/udacity-fend-memory-game-resources/
+
+- https://www.youtube.com/watch?v=XH49scrvSjg&list=PLKC17wty6rS1XVZbRlWjYU0WVsIoJyO3s&index=2
+
+- https://matthewcranford.com/memory-game-walkthrough-part-1-setup/
