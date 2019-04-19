@@ -23,9 +23,9 @@ A cancel button switches off the modal window but doesn't reload the result of t
 
 ## Instructions to refresh code from VSC to GitHub
 
-git add .
-git commit -m "Any message"
-git push origin master
+- git add .
+- git commit -m "Any message"
+- git push origin master
 
 ## Credit
 
