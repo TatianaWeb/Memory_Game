@@ -57,7 +57,6 @@ deck.addEventListener('click', event => {
         toggleCard(clickTarget);
         addToggleCard(clickTarget);
         if (toggledCards.length === 2) {
-        //    checkForMatch(clickTarget);
             checkForMatch();
             addMove();
             checkScore();
@@ -105,11 +104,6 @@ function toggleCard(card) {
 
 function addToggleCard(clickTarget) {
     toggledCards.push(clickTarget);
-//    if (toggledCards.length === 2) {
-//        checkForMatch(clickTarget);    
-//        addMove(); 
-//        checkScore();   
-//    }
 }
 
 /**
@@ -207,10 +201,6 @@ function hideStar() {
 }
 
 document.querySelector('.modal_cancel').addEventListener('click', () => {
-    //resetClockAndTime();
-    //resetMoves();
-    //resetStars();
-    shuffleDeck();
     toggleModal();
 });
 
@@ -230,7 +220,7 @@ function resetGame() {
     document.location.href = '';
 }
 
-function resetClockAndTime() {
+/**function resetClockAndTime() {
     stopClock();
     clockOff = true;
     time = 0;
@@ -248,7 +238,7 @@ function resetStars() {
     for (star of starList) {
         star.style.display = 'inline';
     }
-}
+} */
 
 function resetCards() {
     const cards = document.querySelectorAll('.deck li');
