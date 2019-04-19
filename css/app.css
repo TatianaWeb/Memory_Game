@@ -152,8 +152,8 @@ h2 {font-weight: 75;}
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
-    width: 300px;
+    padding: 1rem;
+    width: 250px;
 }
 
 .score-panel .stars li {
@@ -174,8 +174,6 @@ h2 {font-weight: 75;}
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
-
-
 
 .modal_heading {
     display: flex;
@@ -209,6 +207,10 @@ h2 {font-weight: 75;}
 .modal_button {
     width: 60px;
     height: 30px;
+    background: #2e3d49;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
 }
 
 .hide {
