@@ -1,6 +1,6 @@
 // create a list that holds all of your cards
 
-//Globals
+// Globals
 
 const deck = document.querySelector('.deck');
 const clock = document.querySelector('.clock');
@@ -113,7 +113,7 @@ function addToggleCard(clickTarget) {
  */
 
 function checkForMatch() {
-    const all_pairs = 8;
+    const ALL_PAIRS = 8;
     if (
         toggledCards[0].firstElementChild.className ===
         toggledCards[1].firstElementChild.className
@@ -122,7 +122,7 @@ function checkForMatch() {
             toggledCards[1].classList.toggle('match');
             toggledCards = [];
             matched++;
-                if (matched === all_pairs) {
+                if (matched === ALL_PAIRS) {
                     gameOver();
                 }
         }   else {
@@ -204,18 +204,20 @@ document.querySelector('.modal_cancel').addEventListener('click', () => {
     toggleModal();
 });
 
+document.querySelector('.modal_replay').addEventListener('click', resetGame);
+
 document.querySelector('.restart').addEventListener('click', resetGame);
 
 function resetGame() {
     document.location.href = '';
 }
 
-/*function resetCards() {
+function resetCards() {
     const cards = document.querySelectorAll('.deck li');
     for (let card of cards) {
         card.className = 'card';
     }
-}*/
+}
 
 
 

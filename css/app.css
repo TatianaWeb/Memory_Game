@@ -167,18 +167,14 @@ h1 {
     content: '';
     display: inline-block;
     height: 100%;
-    vertical-align: middle;
+    vertical-align: -webkit-baseline-middle;
 }
 .modal_body {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: -webkit-baseline-middle;
     position: fixed;        
     background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
-    -moz-transform: translate(-50%, -20%); /* Firefox */
-    -ms-transform: translate(-50%, -20%); /* IE */
-    -webkit-transform: translate(-50%, -20%); /* Safari, Chrome, iOS */
-    -o-transform: translate(-50%, -20%); /* Opera */
-    transform: translate(-50%, -20%);
+    transform: translate (-60%, 100rem);
 }
 
 .modal_heading {
@@ -208,12 +204,21 @@ h1 {
     padding: 1rem;
 }
 
-button {
+.modal_cancel  {
     width: 60px;
     height: 30px;
     background-color: #2e3d49;
     color: #fff;
-    border-radius: 8px;
+    border-radius: 6px;
+    border: none;
+}
+
+.modal_replay  {
+    width: 60px;
+    height: 30px;
+    background-color: #fff;
+    color: #2e3d49;
+    border-radius: 6px;
     border: none;
 }
 
