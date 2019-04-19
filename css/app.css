@@ -70,6 +70,15 @@ h2 {font-weight: 75;}
         font-size: 23px;
     }
 
+    .deck .card.match {
+        cursor: default;
+        background: #02ccba;
+        font-size: 23px;
+        animation: rotation 2s  linear;
+    }
+
+
+
     .modal_body {
         position: relative;
         top: 40%;
@@ -114,6 +123,13 @@ h2 {font-weight: 75;}
         font-size: 33px;
     }
 
+    .deck .card.match {
+        cursor: default;
+        background: #02ccba;
+        font-size: 33px;
+        animation: rotation 2s  linear;
+    }
+
     .modal_body {
         position: relative;
         top: 70%;
@@ -130,12 +146,7 @@ h2 {font-weight: 75;}
     cursor: default;
 }   
 
-.deck .card.match {
-    cursor: default;
-    background: #02ccba;
-    font-size: 33px;
-    animation: rotation 2s  linear;
-}
+
 
 @keyframes rotation {
     from {
@@ -207,10 +218,10 @@ h2 {font-weight: 75;}
 .modal_button {
     width: 60px;
     height: 30px;
-    background: #2e3d49;
+    background-color: #2e3d49;
     color: #fff;
     border-radius: 4px;
-    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+    //box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
 }
 
 .hide {
