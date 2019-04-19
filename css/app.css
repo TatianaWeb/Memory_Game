@@ -17,7 +17,7 @@ body {
 }
 
 body {
-    background: #fff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */
+    background: #fff url('../img/geometry2.png'); /* background pattern from Subtle Patterns */
     font-family: Coda, cursive;
 }
 
@@ -34,7 +34,7 @@ h1 {
     text-align: center;
 }
 
-/** Styles for the deck of cards */
+/** styles for the deck of cards for responsive design */
 
 @media screen and (min-width:320px) and (max-width:660px) {
     .deck {        
@@ -125,6 +125,8 @@ h1 {
     cursor: default;
 }   
 
+/* animation for matched cards */
+
 @keyframes rotation {
     from {
         -webkit-transform: rotate(0deg);
@@ -134,7 +136,7 @@ h1 {
     }
 }
 
-/** Styles for the Score Panel */
+/** styles for the Score Panel */
 
 .score-panel {
     display: flex;
