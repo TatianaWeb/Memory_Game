@@ -1,6 +1,8 @@
 //Pack of all cards
 
-let packCards=['fa fa-anchor','fa fa-anchor','fa fa-bicycle','fa fa-bicycle','fa fa-bolt','fa fa-bolt','fa fa-bomb','fa fa-bomb','fa fa-cube','fa fa-cube','fa fa-diamond','fa fa-diamond','fa fa-leaf','fa fa-leaf','fa fa-paper-plane-o','fa fa-paper-plane-o'];
+let halfpack=['fa fa-anchor','fa fa-bicycle','fa fa-bolt','fa fa-bomb','fa fa-cube','fa fa-diamond','fa fa-leaf','fa fa-paper-plane-o'];
+let packcards=[...halfpack,...halfpack];
+
 
 // Globals
 
@@ -16,10 +18,10 @@ let clockId;
 // generate the pack of cards
 
 function packOfCards() {
-    for(let i = 0; i < packCards.length; i++) {
+    for(let i = 0; i < packcards.length; i++) {
         const newCard = document.createElement("li");
         newCard.classList.add("card","cards");
-        newCard.innerHTML = `<i class="${packCards[i]}"></i>`;
+        newCard.innerHTML = `<i class="${packcards[i]}"></i>`;
         deck.appendChild(newCard);
     }
 }
