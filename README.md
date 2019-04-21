@@ -2,7 +2,7 @@
 
 This is my repository for Udacity's  project#2 using Udacity starter code.
 
-[Live version of the game] (https://tatianaweb.github.io/Memory_Game/)
+[Live version of the game](https://tatianaweb.github.io/Memory_Game/)
 
 ## Game Specifications
 
@@ -31,15 +31,15 @@ A cancel button switches off the modal window but doesn't reload the result of t
 
 Helpful links for this project:
 
-- [UDACITY fend memory-game resources] (https://crystal-dawn.github.io/udacity-fend-memory-game-resources/)
+- [UDACITY fend memory-game resources](https://crystal-dawn.github.io/udacity-fend-memory-game-resources/)
 
-- [Tutorial Requests: FEND Project 2 Memory Game - Walk Through] (https://www.youtube.com/watch?v=XH49scrvSjg&list=PLKC17wty6rS1XVZbRlWjYU0WVsIoJyO3s&index=2)
+- [Tutorial Requests: FEND Project 2 Memory Game - Walk Through](https://www.youtube.com/watch?v=XH49scrvSjg&list=PLKC17wty6rS1XVZbRlWjYU0WVsIoJyO3s&index=2)
 
-- [Journey to Greatness by Matthew Cranford] (https://matthewcranford.com/memory-game-walkthrough-part-1-setup/)
+- [Journey to Greatness by Matthew Cranford](https://matthewcranford.com/memory-game-walkthrough-part-1-setup/)
 
 ### Dependencies
 
-- [font.awesome.min.css from maxcdn.bootstrapcdn.com] (https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css)
+- [font.awesome.min.css from maxcdn.bootstrapcdn.com](https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css)
 - [css.css from fonts.googleapis.com](https://fonts.googleapis.com/css?family=Coda)
 
 
