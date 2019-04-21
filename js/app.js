@@ -26,7 +26,6 @@ function packOfCards() {
 
 packOfCards();
 
-
 // shuffle the list of cards using the provided "shuffle" method http://stackoverflow.com/a/2450976
  
 function shuffle(array) {
