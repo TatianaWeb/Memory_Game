@@ -1,3 +1,7 @@
+//Pack of all cards
+
+let packCards=['fa fa-anchor','fa fa-anchor','fa fa-bicycle','fa fa-bicycle','fa fa-bolt','fa fa-bolt','fa fa-bomb','fa fa-bomb','fa fa-cube','fa fa-cube','fa fa-diamond','fa fa-diamond','fa fa-leaf','fa fa-leaf','fa fa-paper-plane-o','fa fa-paper-plane-o'];
+
 // Globals
 
 const deck = document.querySelector('.deck');
@@ -8,13 +12,24 @@ let time = 0;
 let matched = 0;
 let clockOff = true;
 let clockId;
+ 
+// generate the pack of cards
+
+function packOfCards() {
+    for(let i = 0; i < packCards.length; i++) {
+        const newCard = document.createElement("li");
+        newCard.classList.add("card","cards");
+        newCard.innerHTML = `<i class="${packCards[i]}"></i>`;
+        deck.appendChild(newCard);
+    }
+}
+
+packOfCards();
 
 // shuffle the list of cards using the provided "shuffle" method http://stackoverflow.com/a/2450976
  
-function shuffle(array) {
-    
+function shuffle(array) {    
     var currentIndex = array.length, temporaryValue, randomIndex;
-
     while (currentIndex !== 0) {
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
@@ -179,7 +194,7 @@ function addMove() {
 }
 
 function checkScore() {
-     if (moves === 16 || moves === 24 || moves === 32) {  
+     if (moves === 12 || moves === 20) {  
          hideStar(); 
         }
 }
