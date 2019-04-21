@@ -3,7 +3,6 @@
 let halfpack=['fa fa-anchor','fa fa-bicycle','fa fa-bolt','fa fa-bomb','fa fa-cube','fa fa-diamond','fa fa-leaf','fa fa-paper-plane-o'];
 let packcards=[...halfpack,...halfpack];
 
-
 // Globals
 
 const deck = document.querySelector('.deck');
@@ -30,10 +29,8 @@ packOfCards();
 
 // shuffle the list of cards using the provided "shuffle" method http://stackoverflow.com/a/2450976
  
-function shuffle(array) {
-    
-    var currentIndex = array.length, temporaryValue, randomIndex;
-
+function shuffle(array) {    
+    let currentIndex = array.length, temporaryValue, randomIndex;
     while (currentIndex !== 0) {
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
